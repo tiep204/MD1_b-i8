@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>baithuchanh2</title>
+</head>
+<body>
+<!--bat dau code-->
+<script>
+    let useName = prompt("Tên Đăng Nhập",);
+    if (useName == 'Admin') {
+        let pass = prompt('Mật khẩu?',);
+        if (pass == 'TheMaster') {
+            alert('xin chúc mừng!');
+        } else if (pass == null) {
+            // alert('ban khong nhap mat khau.');
+        } else {
+            alert('bạn hãy nhập lại mật khẩu');
+        }
+    } else if (useName == 'null') {
+        alert('bạn đã sai tên đăng nhập mất rồi.');
+    } else {
+        alert("bạn hãy nhập tài khoản của mình");
+    }
+
+
+</script>
+
+</body>
+</html>
